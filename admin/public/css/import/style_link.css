@@ -1,0 +1,11 @@
+#btn_add_product{
+    border: none;
+    padding: 8px 18px;
+    background-color: #4fa327;
+    color: white;
+    border-radius: 3px;
+}
+
+.alert_success{
+    color:#4fa327;
+}

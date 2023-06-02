@@ -1,0 +1,56 @@
+
+#wp_form_admin{
+    max-width:320px;
+    padding:25px 30px 30px 30px;
+    margin:150px auto;
+    background-color:#ffffffb3;
+    border-radius:6px;
+}
+
+#wp_form_admin h1{
+    margin:6px;
+}
+
+#form_login_admin{
+    display:block;
+    overflow:hidden;
+}
+
+#form_login_admin label{
+    display:block;
+    margin-top:18px;
+    margin-bottom:8px;
+    text-align:center;
+    font-size:18px;
+}
+
+#form_login_admin input{
+    outline:none;
+    width:100%;
+    padding:6px;
+    border:none;
+}
+
+#btn_login_admin{
+    background-color:#009688;
+    color:white;
+    font-size:18px;
+    padding: 6px;
+    margin-top: 18px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+.alert_error{
+    color:red;
+    margin-top:6px;
+    margin-bottom:14px;
+}
+
+#btn_update_admin{
+    border: none;
+    padding: 8px 16px;
+    background-color: #4fa327;
+    color: white;
+    border-radius: 3px;
+}

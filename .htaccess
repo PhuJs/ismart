@@ -1,0 +1,21 @@
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9-_]+).html$ index.php?mod=home&controller=index&action=index
+
+RewriteRule ^danh-muc-san-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=products&controller=index&action=index&cat_id=$2
+
+RewriteRule ^danh-muc-san-pham/([A-Za-z0-9-_]+)-([0-9]+)-([a-zA-Z0-9]+)-([0-9]+)$ index.php?mod=products&controller=index&action=index&cat_id=$2&id=$4
+
+RewriteRule ^chi-tiet-san-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=products&controller=index&action=detail&id=$2
+
+RewriteRule ^gio-hang/([a-zA-z0-9-_]+)$ index.php?mod=cart&controller=index&action=index
+
+RewriteRule ^gio-hang/thong-bao/([a-zA-Z0-9-_]+)-([0-9]+)$ index.php?mod=cart&controller=index&action=success&id=$2
+
+RewriteRule ^thanh-toan-don-hang/([a-zA-z0-9-_]+)$ index.php?mod=cart&controller=index&action=checkout
+
+RewriteRule ^bai-viet/([a-zA-z0-9_-]+)-([0-9]+)$ index.php?mod=posts&controller=index&action=detail&id=$2
+
+RewriteRule ^danh-sach/([a-zA-z0-9-_]+)$ index.php?mod=posts&controller=index&action=index
+
+RewriteRule ^thong-tin/([a-zA-z0-9-_]+)$ index.php?mod=posts&controller=index&action=introduce
