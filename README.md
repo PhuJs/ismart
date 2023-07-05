@@ -11,7 +11,6 @@
 <p>- Giỏ hàng: Client sẽ cung cấp chức năng giỏ hàng. Cho phép người dùng có thể thêm sản phẩm vào giỏ hàng, chỉnh sửa số lượng, xóa sản phẩm ra khỏi giỏ hàng và tính tổng số tiền trong giỏ hàng.</p>
 <p>- Thanh toán: Client cung cấp chức năng thanh toán cho người dùng. Người dùng có thể chọn phương thức thanh toán, nhập thông tin thanh toán và xác nhận đơn hàng.</p>
 <p>- Trang tin tức: Client hiển thị các bài viết để người dùng đọc và tương tác với nội dung.</p>
-<p><strong>- Hình ảnh mô tả:<strong></p>
 
 
 <p><strong>Phía ADMIN</strong></p>
