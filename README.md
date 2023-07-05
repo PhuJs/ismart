@@ -20,4 +20,3 @@
 <p>- Quản lý danh mục: ADMIN có quyền tạo, chỉnh sửa, xóa các danh mục sản phẩm. ADMIN có thể quản lý các danh mục con, phân loại sản phẩm vào các danh mục con khác nhau để thuận tiện cho việc tìm kiếm, lọc sản phẩm.</p>
 <p>- Thống kê và báo cáo: ADMIN có thể xem các báo cáo về doanh thu, số lượng đơn hàng đang xử lí, đơn hàng chờ duyệt, đơn hàng thành công. Giúp dễ dàng quản lí việc kinh doanh cho Website.</p>
 <p>- Bảo mật và quản lí hệ thống: ADMIN có quyền quản lí bảo mật và phân quyền truy cập vào hệ thống thông qua chức năng Login. Quản lí các quản trị viên trên hệ thống.</p>
-<p><strong>- Hình ảnh mô tả:<strong></p> 
